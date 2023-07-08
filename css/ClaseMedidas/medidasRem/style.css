@@ -1,0 +1,21 @@
+/* Reinicio profecional de programadoe web */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+  }
+
+
+  /* medidad estandar para el formato de control en tamaño de html */
+  html {
+      font-size: 62.5%;
+  }
+
+  /* Ejemplo para la parctica co  etiqueta p */
+  p {
+      font-size: 1.6rem;
+  }
+
+  main div {
+      font-size: 1.6rem;
+  }

@@ -1,0 +1,23 @@
+
+/* Selectro * de reinico para que tome nutros cambios sin imponer los de la web */
+* {
+   
+    /* Nos sirve para que se reaclcule el borden y el padding  */
+   
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    /* Que tan grande queremos que sea  */
+    width: 100%;
+   
+    /* Que tan alto queremos  */
+    height: 500px;
+
+    border: 10px solid grey ;
+
+    padding: 20px 35px;
+
+}

@@ -1,0 +1,18 @@
+
+
+/* la podemos llamara solo con el nombre de l eqtiqueta */
+p{
+    color: yellow;
+    font-size: 40px;
+}
+
+/* clase---- la podemos llamea con el punto y el nombre de le etiqueta */
+.azul {
+    color:blue
+}
+
+/* clase---- la podemos llamar con el sig numeral #  y el nombre de le etiqueta */
+#rojo   {
+    color: red;
+    font-size: 45px;
+}

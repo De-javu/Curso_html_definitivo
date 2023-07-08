@@ -1,0 +1,5 @@
+/* esta es un regla que se lee de atras para delante  */
+/* indica que se pondra rojo las p que qestan cerca a un h2 */
+h2  + p {
+color: red;
+}

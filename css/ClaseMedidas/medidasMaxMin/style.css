@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* con estas funciones controlamos las etiquetas y sustamaños en el html */
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+}
+
+/* es esta seccion tenemos ario ejemplos de la funcio  de cada etiqueta
+para dominar los tamaños que se desean dentro de cada esacio o contenedores */
+
+section {
+/* tamaño total */
+    width: 80%;
+
+    /* tamaño minimo hasta donde se encojera para dispisitios moviles */
+    min-width: 320px;
+
+/* tamaño maximo hasta donde se estendera nuestrocontenedor  */
+    max-width: 500px;
+
+    /* Ajusta el tamaño maximo del contenerdor si el contenido sobre sale del tamaño asigando  */
+    min-height: 500px;
+
+    /* centras solo de los lados automaticamnete  */
+    margin: 0 auto;
+
+    /* poneos el color del contenerdor  */
+    background-color: red;
+}

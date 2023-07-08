@@ -1,0 +1,16 @@
+
+/* tomamos el estilo de funte desde html para modificar en general */
+
+html {
+    /* Modificamos el tamaño de la fuente en la letra  */
+    font-size: 75%;
+
+    /* modificamos el stilo de letra de la funte origial */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+
+h1 {
+
+    /* Aplicamos herencia con tan solo poner inherits  */
+    font-size: inherit;
+}

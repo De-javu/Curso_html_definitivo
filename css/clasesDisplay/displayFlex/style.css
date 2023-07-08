@@ -1,0 +1,58 @@
+/********************* 1) Reiniciams el navegador  ***********************************/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/****************** 2) ponemos parametros de medida rem en html *********************/
+
+html {
+    font-size: 62.5;
+}
+body {
+    font-size: 1.6;
+}
+
+/********************* 3) Aplicacion de estilos al container **************************/
+
+.container {
+border: 0.3rem solid black;
+
+/* permiete que se cambie de ertical a horizontal */
+                  display: flex;
+}
+
+/********************* 4) Aplicacion de estilos a la clase box **************************/
+
+.box {
+  width: 10rem;
+  height: 10rem;
+}
+
+.box1 {
+    background-color: red;
+}
+
+.box2 {
+    background-color: green;
+}
+
+.box3 {
+    background-color: yellow;
+}
+
+.box4 {
+    background-color: pink;
+}
+
+.box5 {
+    background-color: purple;
+}
+.box6 {
+    background-color: orange;
+}
+
+
+

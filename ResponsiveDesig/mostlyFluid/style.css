@@ -1,0 +1,43 @@
+/* reinicimaos los parametro dehtml como se debe hacer simepre */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+.container {
+    display: flex;
+    /* para reposicionarce */
+    flex-wrap: wrap;
+}
+.c1,
+.c2,
+.c3,
+.c4,
+.c5 {
+
+    /* dimenciones de cada contenedor  */
+    width: 100%;
+    min-width: 150px;
+    height: 150px;
+}
+
+.c1 {
+    background-color: red;
+}
+.c2 {
+    background-color: pink;
+}
+.c3 {
+    background-color: orange;
+}
+.c4 {
+    background-color:orangered;
+}
+.c5 {
+    background-color:purple;
+}
+
+

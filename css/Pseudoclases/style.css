@@ -1,0 +1,35 @@
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: #13a4a4;
+
+}
+
+.main-nav__item {
+
+/* nos permite porner en horizontal los link de la barra de nav */
+    display: inline-block;
+}
+
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+/* Este es un ejemplode pseduo clase, pues nos poneel efecto caund el
+mause esta sobre estas funciones */
+.main-nav__item a:hover {
+   color: black;
+}
+/* Nos permite ver el efecto de cuando hacemos click  */
+.main-nav__item a:active{
+    color: red;
+}
+
+Nos permite er ejemplo de las pseudo elementos 
+.main-nav__item a::after {
+    content: "  !";
+}
